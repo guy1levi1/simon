@@ -14,7 +14,7 @@ document.addEventListener("keypress", function () {
     console.log("game started")
     nextSequence();
     if (gameStarted) {
-        document.querySelector("#level-title").innerHTML = "level " + level;
+        document.querySelector("#level-title").innerHTML = "level no. " + level;
         gameStarted = false;
     }
 });
